@@ -1,0 +1,57 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'Home'|trans({}, 'main-page') }}{% endblock %}
+
+{% block body %}
+
+        <div class="tm-row">
+            <div class="tm-col-left"></div>
+            <main class="tm-col-right">
+                <section class="tm-content">
+                 <h2 class="mb-5 tm-content-title">{{ 'content_title_services'|trans({}, 'main-page') }}</h2>
+                        <div class="tm-gallery">
+
+                            <div class="tm-gallery-item">
+                                <img src="{{ asset('img/clients/client1.png') }}" alt="Proyecto 2">
+                                <h3>Salavando Vidas</h3>
+                            </div>
+                            <div class="tm-gallery-item">
+                                <img src="{{ asset('img/clients/client2.png') }}" alt="Proyecto 3">
+                                <h3>Trasa</h3>
+                            </div>
+                            <div class="tm-gallery-item">
+                                <img src="{{ asset('img/clients/client5.png') }}" alt="Proyecto 6">
+                                <h3>
+                                Digirodeo</h3>
+                            </div>
+                            <div class="tm-gallery-item">
+                                <img src="{{ asset('img/clients/client3.png') }}" alt="Proyecto 4">
+                                <h3>Banco de Alimentos</h3>
+                            </div>
+                            <div class="tm-gallery-item">
+                                <img src="{{ asset('img/clients/client4.png') }}" alt="Proyecto 5">
+                                <h3>Centro de Genetica</h3>
+                            </div>
+
+                            <div class="tm-gallery-item">
+                                <img src="{{ asset('img/clients/client6.png') }}" alt="Proyecto 7">
+                                <h3>Instituto Medico</h3>
+                            </div>
+                            <div class="tm-gallery-item">
+                                <img src="{{ asset('img/clients/client7.png') }}" alt="Proyecto 8">
+                                <h3>Smart Performance</h3>
+                            </div>
+                            <div class="tm-gallery-item">
+                                <img src="{{ asset('img/clients/client8.png') }}" alt="Proyecto 9">
+                                <h3>Innove</h3>
+                            </div>
+                            <div class="tm-gallery-item">
+                                <img src="{{ asset('img/clients/client9.png') }}" alt="Proyecto 1">
+                                <h3>Pago24</h3>
+                            </div>
+                        </div>
+                </section>
+            </main>
+        </div>
+    
+{% endblock %}

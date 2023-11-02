@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'Home'|trans({}, 'main-page') }}{% endblock %}
+
+{% block body %}
+
+        <div class="tm-row">
+            <div class="tm-col-left"></div>
+            <main class="tm-col-right">
+                <section class="tm-content">
+                        <h1>{{ 'profile'|trans({}, 'cv') }}</h1>
+                        <ul>
+                            <li>🚀 {{ 'skills'|trans({}, 'cv') }}</li>
+                            <ul>
+                                <li>🖥️ {{ 'development'|trans({}, 'cv') }}</li>
+                                <li>💻 {{ 'technologies'|trans({}, 'cv') }}</li>
+                                <li>🐧 {{ 'knowledge'|trans({}, 'cv') }}</li>
+                                <li>🌐 {{ 'rest_api'|trans({}, 'cv') }}</li>
+                                <li>🔧 {{ 'maintenance'|trans({}, 'cv') }}</li>
+                                <li>🤝 {{ 'leadership'|trans({}, 'cv') }}</li>
+                                <li>🔍 {{ 'solutions'|trans({}, 'cv') }}</li>
+                            </ul>
+                            <li>💼 {{ 'experience'|trans({}, 'cv') }}</li>
+                            <ul>
+                                <li>🏢 {{ 'founder'|trans({}, 'cv') }}</li>
+                                <li>💻 {{ 'developer'|trans({}, 'cv') }}</li>
+                                <li>👨‍💼 {{ 'ceo'|trans({}, 'cv') }}</li>
+                                <li>📅 {{ 'api_development'|trans({}, 'cv') }}</li>
+                                <li>💳 {{ 'payment_gateways'|trans({}, 'cv') }}</li>
+                                <li>🌐 {{ 'maintenance_development'|trans({}, 'cv') }}</li>
+                                <li>💻 {{ 'tech_support'|trans({}, 'cv') }}</li>
+                            </ul>
+                            <li>📚{{ 'education'|trans({}, 'cv') }}</li>
+                            <p>🎓 {{ 'graduation'|trans({}, 'cv') }}</p>
+                            <li>🌎{{ 'languages'|trans({}, 'cv') }}</li>
+                            <ul>
+                                <li>🇪🇸{{ 'spanish'|trans({}, 'cv') }}</li>
+                                <li>🇧🇷{{ 'portuguese'|trans({}, 'cv') }}</li>
+                                <li>🇺🇸{{ 'english'|trans({}, 'cv') }}</li>
+                            </ul>
+                        </ul>
+
+                    
+                </section>
+            </main>
+        </div>
+{% endblock %}

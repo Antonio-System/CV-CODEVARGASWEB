@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'Home'|trans({}, 'main-page') }}{% endblock %}
+
+{% block body %}
+
+        <div class="tm-row">
+            <div class="tm-col-left"></div>
+            <main class="tm-col-right">
+                <section class="tm-content">
+                    <h2 class="mb-5 tm-content-title">{{ 'content_title'|trans({}, 'main-page') }}</h2>
+                    <p class="mb-5">{{ 'content_paragraph_1'|trans({}, 'main-page') }}</p>
+                    <hr class="mb-5">
+                    <p class="mb-5">{{ 'content_paragraph_2'|trans({}, 'main-page') }}</p>
+                    <a href="{{ path('app_about') }}" class="btn btn-primary">{{ 'continue'|trans({}, 'main-page') }}</a>
+                </section>
+            </main>
+        </div>
+    
+{% endblock %}

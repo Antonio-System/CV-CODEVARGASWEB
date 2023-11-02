@@ -1,0 +1,28 @@
+content_title_cv: Cuenta con la siguiente experiencia
+# Translations for the content in Pedro's CV
+profile: "PERFIL"
+skills: "Habilidades Técnicas"
+development: "Desarrollo de software: Backend y Frontend."
+technologies: "Tecnologías: Node.js, Express, React Native, Angular, PHP, Symfony, Java, Javascript, Typescript."
+knowledge: "Conocimientos en Linux y servidores."
+rest_api: "API REST y bases de datos relacionales."
+maintenance: "Desarrollo y mantenimiento de nuevas funcionalidades."
+leadership: "Liderazgo en proyectos, coordinación de equipos y gestión de requisitos del cliente."
+solutions: "Implementación de soluciones tecnológicas para mejorar los resultados."
+
+experience: "Experiencia Profesional"
+founder: "Fundador de CODEVARGAS LTDA, empresa de consultoría en TI."
+developer: "Desarrollador en Innove Consultoria de resultados, trabajando en proyectos de React Native, Angular y Node.js."
+ceo: "CEO de Codevargas LTDA, liderando proyectos de desarrollo de software y sistemas."
+api_development: "Desarrollo de API para sistema de agendamiento y notificaciones en centro de atención médica."
+payment_gateways: "Trabajo en Payment gateways y sistemas de gestión de alimentos."
+maintenance_development: "Mantenimiento y desarrollo de sitios web en WordPress."
+tech_support: "Experiencia como técnico de mantenimiento de computadoras y soporte técnico."
+
+education: "Educación"
+graduation: "Graduado como Técnico Superior Universitario (TSU) en Análisis, Desarrollo y Diseño de Sistemas de la Universidad Nacional Experimental de las Fuerzas Armadas en Venezuela."
+
+languages: "Idiomas"
+spanish: "Español (nativo)."
+portuguese: "Portugués (fluyente)."
+english: "Inglés (básico)."

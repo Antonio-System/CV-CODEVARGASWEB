@@ -1,0 +1,17 @@
+
+hello: "¡Hola desde HomeController!"
+sitename: "CodeVargas WEB"
+slogan: "Software Developer"
+about: "Acerca de"
+services: "Servicios"
+contact: "Contacto"
+content_title: "Pedro Vargas es: "
+content_paragraph_1: "El fundador de CODEVARGAS LTDA (CNPJ 49244156000107) es un empresa individual que opera de forma remota en Brasil, ofreciendo servicios de consultoría en tecnología de la información. Con un enfoque constante en la mejora continua y la adopción de soluciones tecnológicas innovadoras, posee un sólido conocimiento en una amplia gama de áreas, que abarcan el desarrollo de backend, frontend, tecnologías como NodeJs, Express, React Native, Angular, PHP, Symfony, Java, Javascript, Typescript, Linux, servidores, APIs REST y bases de datos relacionales"
+content_paragraph_2: "Además, es hábil en la creación y mantenimiento de nuevas funcionalidades, aplicando las mejores prácticas de desarrollo. Su experiencia también incluye roles de liderazgo estratégico en proyectos, donde coordina equipos, asigna responsabilidades, revisa resultados, toma decisiones sobre las soluciones a implementar y se relaciona directamente con los clientes para comprender y satisfacer sus requisitos. Es un profesional calificado con las habilidades técnicas necesarias para llevar a cabo proyectos relacionados con el desarrollo de software y la sistematización"
+continue: "Continuar..."
+copyright: "Derechos de autor 2023 CodeVargas LTDA."
+design: "Adaptacion: Predro Vargas"
+content_title_services: "Participado proyectos como:"
+network: "Redes"
+
+languages: "Idiomas"
